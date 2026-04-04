@@ -17,96 +17,87 @@ Here are five gyms many beginners choose because they offer clean facilities, go
 
 ## Konami Sports Club
 
-Konami Sports Club
+Official website  
+https://information.konamisportsclub.jp/ksc/
 
-Konami Sports Club is one of the largest fitness chains in Japan, with many locations across Tokyo.
+Konami Sports Club is one of the largest fitness chains in Japan with many branches across Tokyo. These gyms are usually large and operate as full fitness clubs rather than simple training spaces. The workout area typically includes a wide range of strength machines, free weights and cardio equipment such as treadmills, bikes and elliptical machines. Many locations also include functional training zones and stretching areas.
 
-**Why beginners choose it:**
+Group classes are a major part of the Konami experience. Members can join yoga classes, dance fitness sessions, aerobics programs and beginner strength training classes. These programs make the gym accessible for people who prefer structured workouts rather than training alone.
 
-- Large gyms with many machines  
-- Group classes like yoga and stretching  
-- Pools and spa areas in some locations  
+Many branches also include indoor swimming pools that are used for lap swimming and water fitness classes. Sauna rooms and large public bath areas are also common, giving members a place to relax after workouts.
 
-**Typical price:** ¥7,000 – ¥13,000 per month.
+Rental services usually include towel rental and gym clothing rental. Parking is available at some suburban branches but not always in central Tokyo locations. Monthly membership typically ranges from around ¥7,000 to ¥13,000 depending on the plan and branch.
 
 ---
 
 ## Sports Club NAS
 
-Sports Club NAS
+Official website  
+https://www.nas-club.co.jp/
 
-Sports Club NAS is another well-known gym chain with modern facilities and spacious workout areas.
+Sports Club NAS is another large Japanese gym chain known for spacious facilities and spa style environments. Many NAS clubs are designed as full wellness centers where members can train, swim and relax in one place.
 
-**Why beginners choose it:**
+The training floors usually include cardio machines, strength machines and free weight areas. Many clubs also provide stretching zones and functional training spaces.
 
-- Wide variety of machines  
-- Clean locker rooms and showers  
-- Some locations include pools and sauna areas  
+NAS gyms offer a wide variety of classes such as yoga, Pilates, dance fitness, aerobics and indoor cycling sessions. These classes make the gym especially popular among beginners who prefer guided workouts.
 
-**Typical price:** ¥8,000 – ¥12,000 per month.
+Swimming pools are available in many NAS locations and are often used for swimming lessons and water fitness classes. Sauna rooms and hot bath areas are also common and resemble small public bathhouses.
 
----
-
-## Atrio Due Next
-
-Atrio Due Next
-
-Atrio Due Next is known for its comfortable environment and modern gym equipment.
-
-**Why beginners choose it:**
-
-- Stylish and clean facilities  
-- Good cardio equipment  
-- Less intimidating atmosphere compared to hardcore gyms  
-
-**Typical price:** Around ¥10,000 – ¥14,000 per month.
+Members can usually rent towels and gym clothing at the front desk. Parking is available at many NAS locations, especially outside central Tokyo. Monthly membership prices usually range from ¥8,000 to ¥12,000.
 
 ---
 
 ## Gold's Gym
 
-Gold's Gym
+Official website  
+https://www.goldsgym.jp/
 
-Gold's Gym is famous worldwide and has several locations across Tokyo.
+Gold's Gym is a well known international fitness brand and is particularly popular among people focused on strength training. The Tokyo locations are known for having large free weight areas and extensive strength equipment.
 
-**Why beginners choose it:**
+Most branches include multiple squat racks, bench press stations and heavy dumbbells. There are also many strength machines and cardio machines available for general training.
 
-- Huge selection of strength machines  
-- Experienced trainers available  
-- Motivating gym environment  
+Some branches offer group classes and personal training programs, but the main focus of Gold's Gym is independent training and strength development.
 
-**Typical price:** ¥9,000 – ¥13,000 per month.
+Swimming pools are generally not available at Tokyo locations, although some branches provide sauna rooms and shower facilities. Rental services may include towel rental depending on the location.
+
+Membership usually costs between ¥9,000 and ¥13,000 per month depending on the branch.
 
 ---
 
 ## Anytime Fitness
 
-Anytime Fitness
+Official website  
+https://www.anytimefitness.co.jp/
 
-Anytime Fitness is one of the most convenient gyms in Tokyo, especially for people with busy schedules.
+Anytime Fitness is a global gym chain known for its simple facilities and 24 hour access. There are many locations across Tokyo, often located close to train stations or residential neighborhoods.
 
-**Why beginners choose it:**
+The equipment selection typically includes cardio machines such as treadmills and exercise bikes along with strength machines and free weights. While the gyms are smaller than large fitness clubs, they usually provide enough equipment for a full body workout.
 
-- Open 24 hours  
-- Simple machine layout  
-- Many locations across Tokyo  
+Unlike larger Japanese gyms, Anytime Fitness locations usually do not offer group classes, swimming pools or spa facilities. The focus is on providing a convenient workout space that members can access at any time.
 
-**Typical price:** ¥7,000 – ¥9,000 per month.
+Rental services are usually not available, and sauna or bath facilities are not included. Some suburban locations provide parking, but many city branches rely on nearby paid parking.
 
----
-
-## Average Gym Membership Prices in Tokyo
-
-Gym memberships in Tokyo usually cost between **¥7,000 and ¥13,000 per month**, depending on the facilities and location.
-
-Smaller 24-hour gyms are usually cheaper, while large fitness clubs with pools, spas, and classes tend to cost more.
+The main advantage of Anytime Fitness is its 24 hour operation, which allows members to train early in the morning or late at night. Monthly membership usually ranges from ¥7,000 to ¥9,000.
 
 ---
 
-## Final Thoughts
+## Gym Comparison
 
-The best gym is simply the one you can visit consistently.
+| Gym | Equipment | Classes | Pool | Sauna/Bath | Rentals | Parking | Hours | Monthly Price |
+|----|----|----|----|----|----|----|----|----|
+| Konami Sports Club | Large machines and free weights | Many classes | Yes | Yes | Yes | Limited | 9:00–23:00 | ¥7000–¥13000 |
+| Sports Club NAS | Machines and free weights | Many classes | Yes | Yes | Yes | Often available | 9:30–23:00 | ¥8000–¥12000 |
+| Gold's Gym | Extensive free weights | Some classes | No | Some locations | Limited | Some locations | 7:00–23:00 | ¥9000–¥13000 |
+| Anytime Fitness | Basic machines and weights | No | No | No | No | Some locations | 24 hours | ¥7000–¥9000 |
 
-If you are just starting your fitness journey in Tokyo, try visiting a few gyms, ask for a tour, and see which environment feels comfortable for you.
+---
 
-Consistency matters more than finding the perfect gym.
+## How to Choose a Gym in Tokyo
+
+Location is often the most important factor when choosing a gym. Many people select a gym close to their home or workplace so that it is easier to maintain a regular workout routine.
+
+Facilities also vary widely. Some gyms focus on wellness and relaxation with pools and sauna areas, while others focus purely on workout equipment.
+
+Before joining, visiting the gym for a short tour can help you understand the equipment, crowd levels and overall environment.
+
+More Tokyo fitness and lifestyle guides will be published on KinnikuGlow.
