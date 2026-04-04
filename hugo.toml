@@ -8,3 +8,6 @@ theme = "PaperMod"
   [params.homeInfoParams]
     Title = "Welcome to KinnikuGlow 💪"
     Content = "Gym tips, meal prep, skincare & Tokyo life for working women."
+
+[permalinks]
+  posts = "/:slug/"
