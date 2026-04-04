@@ -1,0 +1,10 @@
+baseURL = "https://kinnikuglow.com/"
+languageCode = "en-us"
+title = "KinnikuGlow"
+theme = "PaperMod"
+
+[params]
+  description = "Fitness, meal prep & glow — Tokyo life"
+  [params.homeInfoParams]
+    Title = "Welcome to KinnikuGlow 💪"
+    Content = "Gym tips, meal prep, skincare & Tokyo life for working women."
