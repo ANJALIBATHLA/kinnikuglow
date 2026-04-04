@@ -1,44 +1,20 @@
 /* assets/css/custom.css */
 
-/* Base container adjustments */
+/* Base container: mobile-first */
 main.container {
-  width: 90%;           /* almost full width on small screens */
-  max-width: 1200px;    /* limit width on very large screens */
-  margin: 0 auto;       /* center content */
-  padding-left: 16px;   /* small padding on sides */
+  width: 95%;        /* almost full width on phones */
+  max-width: 1200px; /* default max-width for readability */
+  margin: 0 auto;    /* center content */
+  padding-left: 16px;
   padding-right: 16px;
 }
 
-/* Headings responsive font sizes */
-h1 {
-  font-size: 2em;  /* default for medium screens */
-}
-h2 {
-  font-size: 1.6em;
-}
-h3 {
-  font-size: 1.3em;
-}
+/* Headings responsive scaling */
+h1 { font-size: 2em; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.3em; }
 
-/* Responsive typography for smaller screens */
-@media (max-width: 768px) {
-  main.container {
-    width: 95%;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-  h1 {
-    font-size: 1.6em;
-  }
-  h2 {
-    font-size: 1.4em;
-  }
-  h3 {
-    font-size: 1.2em;
-  }
-}
-
-/* Optional: slightly wider tables */
+/* Tables scale to container */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -49,10 +25,31 @@ th, td {
   border-bottom: 1px solid #ddd;
 }
 
-/* Make images scale nicely */
+/* Images responsive */
 img {
   max-width: 100%;
   height: auto;
   display: block;
   margin: 10px 0;
+}
+
+/* Wider content on large screens */
+@media (min-width: 1200px) {
+  main.container {
+    max-width: 1600px;  /* stretch more for big laptops/desktops */
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+/* Smaller screens adjustments */
+@media (max-width: 768px) {
+  main.container {
+    width: 95%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  h1 { font-size: 1.6em; }
+  h2 { font-size: 1.4em; }
+  h3 { font-size: 1.2em; }
 }
