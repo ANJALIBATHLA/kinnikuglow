@@ -18,7 +18,7 @@ Here are five gyms many beginners choose because they offer clean facilities, go
 ## Konami Sports Club
 
 Official website  
-https://information.konamisportsclub.jp/ksc/
+https://www.konami.com/sportsclub/
 
 Konami Sports Club is one of the largest fitness chains in Japan with many branches across Tokyo. These gyms are usually large and operate as full fitness clubs rather than simple training spaces. The workout area typically includes a wide range of strength machines, free weights and cardio equipment such as treadmills, bikes and elliptical machines. Many locations also include functional training zones and stretching areas.
 

@@ -12,6 +12,7 @@ paginate = 10
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   defaultTheme = "auto"
+  customCSS = ["css/custom.css"]
 
   [params.homeInfoParams]
     Title = "Welcome to KinnikuGlow!"

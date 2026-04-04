@@ -1,0 +1,58 @@
+/* assets/css/custom.css */
+
+/* Base container adjustments */
+main.container {
+  width: 90%;           /* almost full width on small screens */
+  max-width: 1200px;    /* limit width on very large screens */
+  margin: 0 auto;       /* center content */
+  padding-left: 16px;   /* small padding on sides */
+  padding-right: 16px;
+}
+
+/* Headings responsive font sizes */
+h1 {
+  font-size: 2em;  /* default for medium screens */
+}
+h2 {
+  font-size: 1.6em;
+}
+h3 {
+  font-size: 1.3em;
+}
+
+/* Responsive typography for smaller screens */
+@media (max-width: 768px) {
+  main.container {
+    width: 95%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  h1 {
+    font-size: 1.6em;
+  }
+  h2 {
+    font-size: 1.4em;
+  }
+  h3 {
+    font-size: 1.2em;
+  }
+}
+
+/* Optional: slightly wider tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Make images scale nicely */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
