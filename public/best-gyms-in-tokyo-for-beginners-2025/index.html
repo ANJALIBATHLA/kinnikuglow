@@ -8,7 +8,7 @@
 <title>Best Gyms in Tokyo for Beginners (2025) | KinnikuGlow</title>
 <meta name="keywords" content="gym, tokyo, beginners, fitness">
 <meta name="description" content="Looking for a gym in Tokyo? Here are the best options for beginners, with prices and locations.">
-<meta name="author" content="">
+<meta name="author" content="KinnikuGlow">
 <link rel="canonical" href="http://localhost:1313/best-gyms-in-tokyo-for-beginners-2025/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
@@ -101,6 +101,31 @@
             </div>
         </div>
         <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/gym/" title="Gym">
+                    <span>Gym</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/meal-prep/" title="Meal Prep">
+                    <span>Meal Prep</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/skincare/" title="Skincare">
+                    <span>Skincare</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/tokyo/" title="Tokyo">
+                    <span>Tokyo</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -108,14 +133,14 @@
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       Best Gyms in Tokyo for Beginners (2025)
     </h1>
     <div class="post-description">
       Looking for a gym in Tokyo? Here are the best options for beginners, with prices and locations.
     </div>
-    <div class="post-meta"><span title='2025-04-04 00:00:00 +0000 UTC'>April 4, 2025</span>
+    <div class="post-meta"><span title='2025-04-04 00:00:00 +0000 UTC'>April 4, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>KinnikuGlow</span>
 
 </div>
   </header> 
@@ -132,6 +157,7 @@
       <li><a href="http://localhost:1313/tags/beginners/">Beginners</a></li>
       <li><a href="http://localhost:1313/tags/fitness/">Fitness</a></li>
     </ul>
+
   </footer>
 </article>
     </main>
@@ -210,6 +236,53 @@
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

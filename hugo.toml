@@ -2,12 +2,51 @@ baseURL = "https://kinnikuglow.com/"
 languageCode = "en-us"
 title = "KinnikuGlow"
 theme = "PaperMod"
+paginate = 10
 
 [params]
-  description = "Fitness, meal prep & glow — Tokyo life"
+  description = "Fitness, meal prep & glow — Tokyo life for working women"
+  author = "KinnikuGlow"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+
   [params.homeInfoParams]
-    Title = "Welcome to KinnikuGlow 💪"
-    Content = "Gym tips, meal prep, skincare & Tokyo life for working women."
+    Title = "Welcome to KinnikuGlow!"
+    Content = """
+Fitness tips, meal prep, skincare & the best of Tokyo life, 
+made for working women who want to feel strong and glow doing it.
+Whether you're a gym beginner or just looking for the best 
+protein powder in Japan — you're in the right place.
+"""
 
 [permalinks]
   posts = "/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Gym"
+    url = "/tags/gym/"
+    weight = 2
+  [[menu.main]]
+    name = "Meal Prep"
+    url = "/tags/meal-prep/"
+    weight = 3
+  [[menu.main]]
+    name = "Skincare"
+    url = "/tags/skincare/"
+    weight = 4
+  [[menu.main]]
+    name = "Tokyo"
+    url = "/tags/tokyo/"
+    weight = 5

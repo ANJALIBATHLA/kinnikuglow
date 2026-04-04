@@ -1,0 +1,4 @@
+---
+title: "KinnikuGlow"
+layout: "home"
+---
