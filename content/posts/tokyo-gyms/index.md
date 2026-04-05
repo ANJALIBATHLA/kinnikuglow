@@ -1,7 +1,7 @@
 ---
 title: "Best Gyms in Tokyo for Beginners (2026) — From Budget to Premium"
 date: 2026-04-05
-description: "A no-BS guide to the best gyms in Tokyo for beginners - including budget public gyms from ¥300, beginner-friendly chains, and English-friendly options for expats and working women."
+description: "A no-BS guide to the best gyms in Tokyo for beginners — including budget public gyms from ¥300, beginner-friendly chains, and English-friendly options for expats and working women."
 tags: ["tokyo", "fitness", "beginners"]
 ---
 
@@ -124,9 +124,9 @@ Services include personal training, group classes, boxing, physiotherapy, massag
 | [Public Ward Gyms](https://www.sportsentry.ne.jp/) | ¥300–¥600/visit | 9:00–21:00 | Some | Many | ✗ | Budget beginners |
 | [Chocozap](https://chocozap.jp/) | ¥2,980 | 24 hours | ✗ | ✗ | ✗ | Solo, no-fuss training |
 | [Anytime Fitness](https://www.anytimefitness.co.jp/) | ¥7,000–¥9,000 | 24 hours | ✗ | ✗ | ~ | Busy professionals |
-| [Konami Sports Club](https://www.konami.com/sportsclub/) | ¥7,000–¥13,000 | 9:00–23:00 | ✓ Many | ✓ | ~ | Beginners, group classes |
+| [Konami Sports Club](https://www.konami.com/sportsclub/) | ¥7,000–¥13,000 | 9:00–23:00 | Many | ✓ | ~ | Beginners, group classes |
 | [Gold's Gym](https://www.goldsgym.jp/) | ¥9,000–¥13,000 | 24hrs (Harajuku) | Some | ✗ | ✓ | Strength training |
-| [Club 360](https://club360.jp/) | ¥30,000+ | Studio hours | ✓ Many | ✗ | ✓✓ | Full English support |
+| [Club 360](https://club360.jp/) | ¥30,000+ | Studio hours | Many | ✗ | ✓✓ | Full English support |
 
 ---
 
