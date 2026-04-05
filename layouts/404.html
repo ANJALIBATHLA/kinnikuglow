@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="8;url=/">
+  <title>Page Not Found — KinnikuGlow</title>
+  {{ $css := resources.Get "css/extended/custom.css" }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+</head>
+<body>
+  {{- partial "header.html" . -}}
+  <main class="main">
+    <div style="text-align:center; padding: 80px 20px;">
+      <div style="font-size:48px;">💪</div>
+      <h1>This page skipped leg day.</h1>
+      <p>This page may have been moved or renamed.</p>
+      <p>There's plenty of good stuff waiting back home.</p>
+      <a href="/">← Back to KinnikuGlow</a>
+      <p><small>Redirecting in 8 seconds...</small></p>
+    </div>
+  </main>
+  {{- partial "footer.html" . -}}
+</body>
+</html>
