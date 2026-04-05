@@ -1,63 +1,16 @@
-/* ─── Header / Navbar ─── */
-.header,
-.header .nav {
+/* ─── Navbar — always full width, logo pinned left ─── */
+.header, .header .nav {
   max-width: 100% !important;
   width: 100% !important;
-  padding: 0 4% !important;
+  padding: 0 40px !important;
   box-sizing: border-box !important;
 }
 
-.logo {
-  margin: 0 !important;
-}
-
-/* ─── Main content wrapper ─── */
-main.main {
-  width: 92% !important;
-  max-width: 1100px !important;
+/* ─── All page content — consistent width, left aligned ─── */
+.main {
+  max-width: 1200px !important;
+  width: calc(100% - 80px) !important;
   margin: 0 auto !important;
   padding: 0 !important;
   box-sizing: border-box !important;
-}
-
-/* ─── Everything inside main inherits full width ─── */
-main.main .page-header,
-main.main .breadcrumbs,
-main.main h1,
-main.main .post-entry,
-main.main .home-info,
-main.main .post-single,
-main.main .post-header,
-main.main .post-content,
-main.main .list-header,
-main.main .archive-title,
-main.main .term-title,
-main.main .posts-list {
-  width: 100% !important;
-  max-width: 100% !important;
-  margin-left: 0 !important;
-  padding-left: 0 !important;
-}
-
-/* ─── Home info text fills container ─── */
-.home-info .entry-header,
-.home-info .entry-content {
-  width: 100% !important;
-  max-width: 100% !important;
-}
-
-/* ─── Article detail page ─── */
-.post-single,
-.post-single .post-header,
-.post-single .post-content,
-.post-single .post-title {
-  width: 100% !important;
-  max-width: 100% !important;
-  margin-left: 0 !important;
-  padding-left: 0 !important;
-}
-
-/* ─── Back to top button ─── */
-#top-link {
-  left: 4% !important;
 }
