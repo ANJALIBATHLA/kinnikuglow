@@ -3,6 +3,11 @@ languageCode = "en-us"
 title = "KinnikuGlow"
 theme = "PaperMod"
 paginate = 10
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
 
 [params]
   description = "Fitness, meal prep & glow — Tokyo life for working women"
