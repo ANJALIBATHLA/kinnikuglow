@@ -9,8 +9,36 @@
 /* ─── All page content — consistent width, left aligned ─── */
 .main {
   max-width: 1200px !important;
-  width: calc(100% - 80px) !important;
+  width: calc(100% - 80px) !important; /* match navbar padding */
   margin: 0 auto !important;
-  padding: 0 !important;
+  padding: 20px !important; /* add internal spacing for readability */
   box-sizing: border-box !important;
+}
+
+/* Fix tags/categories section padding for wider screens */
+.tags, .categories, .page-tags {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* Wider screens adjustment */
+@media (min-width: 1200px) {
+  .tags, .categories, .page-tags {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+/* Small screens adjustments */
+@media (max-width: 768px) {
+  .main {
+    width: 95% !important;
+    padding: 16px !important;
+  }
+  .tags, .categories, .page-tags {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 }
