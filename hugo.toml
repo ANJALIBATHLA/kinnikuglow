@@ -12,11 +12,11 @@ paginate = 10
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   defaultTheme = "auto"
-  customCSS = ["css/custom.css"]
+  assets = {disableHLJS = true}
 
-  [params.homeInfoParams]
-    Title = "Welcome to KinnikuGlow!"
-    Content = """
+[params.homeInfoParams]
+  Title = "Welcome to KinnikuGlow!"
+  Content = """
 Fitness tips, meal prep, skincare & the best of Tokyo life, 
 made for working women who want to feel strong and glow doing it.
 Whether you're a gym beginner or just looking for the best 
@@ -36,8 +36,8 @@ protein powder in Japan - you're in the right place.
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Gym"
-    url = "/tags/gym/"
+    name = "Fitness"
+    url = "/tags/fitness/"
     weight = 2
   [[menu.main]]
     name = "Meal Prep"
