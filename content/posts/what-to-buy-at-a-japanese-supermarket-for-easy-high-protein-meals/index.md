@@ -14,8 +14,6 @@ You are staring at the refrigerated shelves after a long day at the office and j
 
 The seafood and meat sections offer the fastest ways to add protein to your plate. Look for vacuum packed salmon fillets or pre seasoned chicken breast often labeled as torimune. These are usually ready for the frying pan or a quick steam. 
 
-[IMAGE: A selection of vacuum sealed salmon and chicken breast in a Japanese grocery store chiller]
-
 Silken or firm tofu is another essential. You can find blocks of tofu that require no cooking at all. Adding a pack of hiyayakko, which is chilled tofu with soy sauce and ginger, takes seconds. Edamame, found in the frozen section, serves as a great side dish that provides both fiber and protein.
 
 ## Eggs and dairy for convenience
