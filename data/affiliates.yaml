@@ -1,0 +1,10 @@
+# Affiliate and referral links — add entries here as you join programs.
+# Reference keys in queue/posts.yaml under the affiliates field per post.
+# The shortcode {{< affiliate "key" >}} is also available for manual use in posts.
+
+# Example:
+# cerave-retinol:
+#   name: "CeraVe Retinol Serum"
+#   url: "https://your-affiliate-link.com"
+
+

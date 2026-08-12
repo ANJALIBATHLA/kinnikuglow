@@ -1,0 +1,59 @@
+name: Auto merge post PRs
+
+on:
+  schedule:
+    - cron: "0 9 * * *"  # Daily at 9am UTC
+  workflow_dispatch:
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Merge qualifying post PRs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          echo "Checking for post PRs to merge (today: $TODAY)"
+
+          gh pr list \
+            --base main \
+            --state open \
+            --json number,headRefName,labels \
+            --jq '.[] | select(.headRefName | startswith("post/")) | @json' \
+          | while IFS= read -r pr_json; do
+
+            NUMBER=$(echo "$pr_json" | jq -r '.number')
+            LABELS=$(echo "$pr_json" | jq -r '.labels[].name')
+
+            SHOULD_MERGE=false
+            REASON=""
+
+            if echo "$LABELS" | grep -qx "ready"; then
+              SHOULD_MERGE=true
+              REASON="has 'ready' label"
+            fi
+
+            PUBLISH_LABEL=$(echo "$LABELS" | grep "^publish:" | head -1)
+            if [ -n "$PUBLISH_LABEL" ]; then
+              PUBLISH_DATE="${PUBLISH_LABEL#publish:}"
+              if [[ "$PUBLISH_DATE" <= "$TODAY" ]]; then
+                SHOULD_MERGE=true
+                REASON="publish date $PUBLISH_DATE has arrived"
+              else
+                echo "PR #$NUMBER scheduled for $PUBLISH_DATE — skipping."
+              fi
+            fi
+
+            if [ "$SHOULD_MERGE" = true ]; then
+              echo "Merging PR #$NUMBER — $REASON"
+              gh pr merge "$NUMBER" --merge --delete-branch
+            fi
+
+          done

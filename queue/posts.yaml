@@ -1,0 +1,203 @@
+# KinnikuGlow post queue
+# Each entry needs at minimum a title.
+# publish: "YYYY-MM-DD"  → PR auto-merges on that date
+# Without a publish date  → add the 'ready' label on GitHub when you're done reviewing
+# tags:                   → controls which nav sections the post appears in
+#                            options: tokyo, fitness, skincare, meal-prep, beginners
+# notes:                  → extra context fed to Gemini for that specific post
+# images:                 → shared images to embed (upload files to static/images/shared/)
+
+# - title: "Best Protein Powder in Japan"
+#   publish: "2026-08-17"
+#   tags: [fitness, meal-prep]
+#   notes: "Focus on options available at Don Quijote and online. Practical comparison, no fluff."
+#   images:
+#     - file: "/images/shared/protein-powder-lineup.jpg"
+#       alt: "Protein powder brands available in Japan"
+#       placement: "after intro"
+
+- title: "What to Buy at a Japanese Supermarket for Easy High Protein Meals"
+  publish: "2026-08-14"
+  tags: [meal-prep, tokyo]
+  notes: "Focus on practical supermarket staples for easy high protein meals. Mention specific Japanese foods and labels where useful. Keep it realistic for a working schedule."
+  images: []
+
+- title: "How to Meal Prep for a 9 to 6 Job in Tokyo"
+  publish: "2026-08-21"
+  tags: [meal-prep, tokyo]
+  notes: "Focus on realistic Sunday meal prep for someone working full time. Cover batch cooking, storage, simple proteins, vegetables, and carbs."
+  images: []
+
+- title: "How to Stay Fit When You Work Full Time and Hate the Gym"
+  publish: "2026-08-28"
+  tags: [fitness]
+  notes: "Focus on realistic ways to stay active without relying on daily gym sessions. Include walking, swimming, short workouts, and fitting movement around work."
+  images: []
+
+- title: "What to Buy at a Japanese Drugstore for a Simple Skincare Routine"
+  publish: "2026-09-04"
+  tags: [skincare, tokyo]
+  notes: "Focus on how to navigate Japanese drugstores and build a simple routine without buying too many products. Mention Japanese product labels where useful."
+  images: []
+
+- title: "How to Build a High Protein Meal From a Japanese Convenience Store"
+  publish: "2026-09-11"
+  tags: [meal-prep, tokyo]
+  notes: "Show how to combine common convenience store foods into balanced high protein meals. Keep the choices realistic and easy to find."
+  images: []
+
+- title: "How to Shop for Skincare in Japan When You Cannot Read Japanese"
+  publish: "2026-09-18"
+  tags: [skincare, tokyo]
+  notes: "Explain useful Japanese skincare words, labels, and product categories that make shopping easier. Keep it practical for someone new to Japan."
+  images: []
+
+- title: "How to Make Healthy Meals When You Get Home From Work at 8 PM"
+  publish: "2026-09-25"
+  tags: [meal-prep, fitness]
+  notes: "Focus on genuinely quick meals for late workdays. Include meal prep shortcuts and foods that can be prepared with minimal effort."
+  images: []
+
+- title: "How I Stay Active in Tokyo Without Going to the Gym Every Day"
+  publish: "2026-10-02"
+  tags: [fitness, tokyo]
+  notes: "Focus on realistic movement in Tokyo, including walking, swimming, commuting, and short workouts. Keep the advice practical rather than idealistic."
+  images: []
+
+- title: "Japanese Supermarket Foods I Always Keep in My Kitchen"
+  publish: "2026-10-09"
+  tags: [meal-prep, tokyo]
+  notes: "Focus on useful Japanese supermarket staples for quick meals, protein, vegetables, and easy meal prep. Use specific foods and Japanese names where helpful."
+  images: []
+
+- title: "How I Manage Cooking, Work, Exercise and Life in Tokyo"
+  publish: "2026-10-16"
+  tags: [tokyo, fitness]
+  notes: "Focus on creating a realistic routine around a full time job. Keep it honest and practical rather than presenting a perfect lifestyle."
+  images: []
+
+- title: "Easy Protein Packed Lunches You Can Take to the Tokyo Office"
+  publish: "2026-10-23"
+  tags: [meal-prep, tokyo]
+  notes: "Focus on lunches that are easy to prepare, pack, transport, and eat at work. Include Japanese supermarket ingredients where relevant."
+  images: []
+
+- title: "The Lazy Girl’s Guide to Meal Prep in Tokyo"
+  publish: "2026-10-30"
+  tags: [meal-prep, tokyo]
+  notes: "Focus on minimum effort meal prep for busy working days. Include shortcuts, simple ingredients, and realistic batch cooking."
+  images: []
+
+- title: "What I Eat in a Week While Working Full Time in Tokyo"
+  publish: "2026-11-06"
+  tags: [meal-prep, tokyo]
+  notes: "Create a realistic week of meals around a full time work schedule. Avoid making the diet look perfect or overly restrictive."
+  images: []
+
+- title: "How to Fit Exercise Into a 9 to 6 Workday"
+  publish: "2026-11-13"
+  tags: [fitness]
+  notes: "Focus on practical ways to fit movement before work, after work, during lunch, or through commuting. Keep expectations realistic."
+  images: []
+
+- title: "What to Buy in Japan When You Want More Protein but Hate Protein Bars"
+  publish: "2026-11-20"
+  tags: [fitness, meal-prep]
+  notes: "Focus on whole food and convenient protein options available in Japan. Mention specific supermarket or convenience store foods where verified."
+  images: []
+
+- title: "My Simple Japanese Drugstore Skincare Routine"
+  publish: "2026-11-27"
+  tags: [skincare, tokyo]
+  notes: "Keep the routine simple and practical. Focus on product categories and how to avoid buying unnecessary products."
+  images: []
+
+- title: "How to Build a Skincare Routine Without Buying 10 Products"
+  publish: "2026-12-04"
+  tags: [skincare]
+  notes: "Focus on the basic steps that make sense for a simple routine. Avoid unnecessary product recommendations and exaggerated claims."
+  images: []
+
+- title: "The Skincare Mistakes I Made When I First Started Using Actives"
+  publish: "2026-12-11"
+  tags: [skincare]
+  notes: "Focus on common mistakes with active ingredients and how to introduce products more carefully. Clearly distinguish personal experience from general skincare advice."
+  images: []
+
+- title: "Japanese Sunscreens That Feel Good Enough to Wear Every Day"
+  publish: "2026-12-18"
+  tags: [skincare, tokyo]
+  notes: "Focus on everyday usability, texture, application, and availability in Japan. Do not make unsupported claims about specific products."
+  images: []
+
+- title: "How to Start Working Out Again After Doing Nothing for Months"
+  publish: "2026-12-25"
+  tags: [fitness]
+  notes: "Focus on starting slowly and creating a routine that is easy to maintain. Avoid extreme workout plans or unrealistic promises."
+  images: []
+
+- title: "The Best Low Effort Ways to Move More in Tokyo"
+  publish: "2027-01-01"
+  tags: [fitness, tokyo]
+  notes: "Focus on everyday movement that naturally fits into Tokyo life, including walking, stairs, commuting, and active weekend plans."
+  images: []
+
+- title: "Easy Indian Meals You Can Make With Ingredients From Japan"
+  publish: "2027-01-08"
+  tags: [meal-prep, tokyo]
+  notes: "Focus on Indian meals that can realistically be made with ingredients found in Japanese supermarkets. Mention ingredient substitutions where useful."
+  images: []
+
+- title: "What to Buy at Life Supermarket When You Want to Eat Healthier"
+  publish: "2027-01-15"
+  tags: [meal-prep, tokyo]
+  notes: "Focus on practical supermarket choices for healthier everyday meals. Use specific products or sections only when details are verified."
+  images: []
+
+- title: "How to Build a Healthy Routine While Living in Tokyo"
+  publish: "2027-01-22"
+  tags: [fitness, tokyo]
+  notes: "Cover food, movement, sleep, work, and simple routines without making healthy living feel complicated or restrictive."
+  images: []
+
+- title: "What I Wish I Knew Before Moving to Tokyo"
+  publish: "2027-01-29"
+  tags: [tokyo]
+  notes: "Focus on practical everyday lessons about living in Tokyo. Use personal experiences only when they are provided."
+  images: []
+
+- title: "How to Make Tokyo Life Easier When You Work Long Hours"
+  publish: "2027-02-05"
+  tags: [tokyo, meal-prep]
+  notes: "Focus on practical systems for food, errands, exercise, and everyday tasks when work takes up most of the day."
+  images: []
+
+- title: "What I Do After Work When I Have No Energy"
+  publish: "2027-02-12"
+  tags: [fitness, tokyo]
+  notes: "Focus on realistic low energy evening routines after a long workday. Keep the suggestions simple and achievable."
+  images: []
+
+- title: "How to Stay Healthy When You Are Too Busy to Cook"
+  publish: "2027-02-19"
+  tags: [meal-prep, fitness]
+  notes: "Focus on realistic shortcuts including meal prep, supermarkets, convenience stores, and simple meals. Avoid perfectionism."
+  images: []
+
+- title: "A Realistic Weekly Fitness Routine for a Busy Office Worker"
+  publish: "2027-02-26"
+  tags: [fitness]
+  notes: "Create a manageable weekly routine that does not require exercising every day. Include rest and flexible options."
+  images: []
+
+- title: "What to Do When You Only Have 30 Minutes to Exercise"
+  publish: "2027-03-05"
+  tags: [fitness]
+  notes: "Focus on efficient short workouts and simple ways to use 30 minutes effectively. Avoid claiming that one routine is best for everyone."
+  images: []
+
+- title: "How to Find Everyday Things in Japan When You Cannot Read Japanese"
+  publish: "2027-03-12"
+  tags: [tokyo]
+  notes: "Focus on practical Japanese words, labels, and signs that make everyday shopping and errands easier."
+  images: []
