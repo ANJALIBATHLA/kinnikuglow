@@ -3,7 +3,7 @@
 title: "Best Gyms in Tokyo for Beginners (2026) — From Budget to Premium"
 date: 2026-04-05
 description: "A no-BS guide to the best gyms in Tokyo for beginners — including budget public gyms from ¥300, beginner-friendly chains, and English-friendly options for expats and working women."
-tags: ["tokyo", "fitness", "beginners"]
+tags: ["tokyo", "fitness"]
 ---
 
 Starting the gym in Tokyo can feel overwhelming. Between the language barrier, strict etiquette rules, and membership contracts written entirely in Japanese — it's hard to know where to even begin.
