@@ -14,15 +14,13 @@ You are likely exhausted by Friday evening and dread the thought of packing a lu
 
 Dedicate two hours on Sunday afternoon to cook large portions of simple staples that work well for several days. Choose one protein, one carbohydrate, and two vegetable options to mix and match. This prevents your lunches from feeling like a chore while ensuring you have healthy food ready when your alarm goes off.
 
-[IMAGE: Glass food storage containers filled with colorful meal prep components on a kitchen counter]
+![Chicken Curry, Veggies & Rice Meal Prep](/static/shared/meal-prep.jpeg)
 
 Focus on proteins that stay moist after reheating, such as baked chicken thighs or firm tofu seasoned with shoyu and ginger. Boiling a batch of eggs is another simple way to add protein to your bento box in seconds. Keep your seasoning minimal during prep so you can add fresh sauces or dressings right before you leave for the office.
 
 ## Smart Vegetable Prep
 
 Vegetables in Tokyo are often sold in small bundles that wilt if left in the crisper drawer for too long. Wash and chop your greens like spinach or komatsuna immediately after returning from the supermarket. Blanching these leafy greens for thirty seconds before storing them helps them retain their color and texture for your lunch.
-
-[IMAGE: Freshly washed leafy greens arranged in clear storage containers]
 
 Root vegetables such as carrots and daikon hold up perfectly in the fridge for the entire week. Roast a large tray of them with olive oil and salt to provide a satisfying crunch to your meals. When you have these basics ready, you can assemble your containers in less than five minutes each night.
 
