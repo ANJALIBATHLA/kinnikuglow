@@ -12,25 +12,34 @@ jobs:
       contents: write
       pull-requests: write
 
+    outputs:
+      merged: ${{ steps.merge-posts.outputs.merged }}
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
 
       - name: Merge qualifying post PRs
+        id: merge-posts
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
 
           TODAY=$(date -u +%Y-%m-%d)
+          MERGED=false
+
           echo "Checking for post PRs to merge (today: $TODAY)"
 
-          gh pr list \
+          PR_LIST=$(gh pr list \
             --base main \
             --state open \
             --json number,headRefName,labels \
-            --jq '.[] | select(.headRefName | startswith("post/")) | @json' \
-          | while IFS= read -r pr_json; do
+            --jq '.[] | select(.headRefName | startswith("post/")) | @json')
+
+          while IFS= read -r pr_json; do
+
+            [ -z "$pr_json" ] && continue
 
             NUMBER=$(echo "$pr_json" | jq -r '.number')
             LABELS=$(echo "$pr_json" | jq -r '.labels[].name')
@@ -62,8 +71,26 @@ jobs:
               gh pr merge "$NUMBER" \
                 --merge \
                 --delete-branch
+
+              echo "PR #$NUMBER merged successfully."
+              MERGED=true
             else
               echo "PR #$NUMBER does not qualify for merging."
             fi
 
-          done
+          done <<< "$PR_LIST"
+
+          echo "merged=$MERGED" >> "$GITHUB_OUTPUT"
+
+          if [ "$MERGED" = true ]; then
+            echo "At least one PR was merged. Deployment will run."
+          else
+            echo "No PRs were merged. Deployment will NOT run."
+          fi
+
+  deploy:
+    needs: merge
+    if: needs.merge.outputs.merged == 'true'
+    uses: ./.github/workflows/deploy.yaml
+    permissions:
+      contents: write
