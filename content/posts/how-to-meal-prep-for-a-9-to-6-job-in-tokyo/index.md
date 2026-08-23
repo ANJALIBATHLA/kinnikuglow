@@ -1,6 +1,6 @@
 ---
 title: How to Meal Prep for a 9 to 6 Job in Tokyo
-date: 2026-08-13
+date: 2026-08-21
 description: Master your Sunday kitchen routine to keep your work week lunches nutritious
   and stress free in Tokyo.
 tags:
@@ -14,7 +14,7 @@ You are likely exhausted by Friday evening and dread the thought of packing a lu
 
 Dedicate two hours on Sunday afternoon to cook large portions of simple staples that work well for several days. Choose one protein, one carbohydrate, and two vegetable options to mix and match. This prevents your lunches from feeling like a chore while ensuring you have healthy food ready when your alarm goes off.
 
-![Chicken Curry, Veggies & Rice Meal Prep](/static/shared/meal-prep.jpeg)
+![Chicken Curry, Veggies & Rice Meal Prep](/shared/meal-prep.jpeg)
 
 Focus on proteins that stay moist after reheating, such as baked chicken thighs or firm tofu seasoned with shoyu and ginger. Boiling a batch of eggs is another simple way to add protein to your bento box in seconds. Keep your seasoning minimal during prep so you can add fresh sauces or dressings right before you leave for the office.
 
