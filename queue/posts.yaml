@@ -139,6 +139,8 @@
   notes: Create a realistic week of meals around a full time work schedule. Avoid
     making the diet look perfect or overly restrictive.
   images: []
+  status: created
+  branch: post/what-i-eat-in-a-week-while-working-full-time-in-tokyo-2026-08-24
 - title: How to Fit Exercise Into a 9 to 6 Workday
   publish: '2026-11-13'
   tags:
