@@ -211,11 +211,11 @@ def generate_post(entry, api_key, system_prompt, all_affiliates):
     notes = (entry.get("notes") or "").strip()
     images = entry.get("images", []) or []
     affiliate_keys = entry.get("affiliates", []) or []
-    today = datetime.date.today().isoformat()
+    publish = str(entry.get("publish", "")).strip()
 
     parts = [
         f"Write a blog post for KinnikuGlow with this title: {title}",
-        f"Today's date: {today}",
+        f"The publication date in the Hugo front matter MUST be: {publish}",
     ]
 
     if notes:
