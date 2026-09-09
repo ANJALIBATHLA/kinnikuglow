@@ -1,6 +1,6 @@
 ---
 title: What I Eat in a Week While Working Full Time in Tokyo
-date: 2026-08-24
+date: 2026-11-06
 description: Practical meal planning for busy work weeks in Tokyo that keeps you fueled
   without spending your entire Sunday in the kitchen.
 tags:
@@ -11,8 +11,6 @@ tags:
 You are staring at your fridge after a long day at the office and wishing dinner would magically appear. Managing nutrition while navigating a full time schedule in Tokyo is a balancing act between convenience and feeling your best.
 
 ## Streamlining your Tokyo meal prep
-
-[IMAGE: a spread of bento containers filled with brown rice and grilled salmon]
 
 Successful meal prep starts with keeping things simple. Buy pre-washed salad greens and cherry tomatoes from local supermarkets like Life or Seiyu to save time on chopping. You can batch cook a large portion of protein like chicken breast or salmon once during the week. Keep a stash of frozen vegetables in your freezer for nights when you lack the energy to cook from scratch.
 
@@ -25,8 +23,6 @@ Quick breakfasts prevent you from grabbing an extra convenience store pastry on 
 You do not need to pack a homemade bento every single day to stay on track. Most office areas in districts like Shinjuku or Marunouchi have salad bars or teishoku restaurants that offer balanced portions. Look for places that allow you to choose a grilled fish main with miso soup and a side of pickles. This approach keeps your lunch routine flexible while helping you avoid the heavy salt content of many processed bento options.
 
 ## Keeping dinners flexible
-
-[IMAGE: a bowl of soba noodles with vegetables and soft tofu]
 
 Your dinner should adjust based on your energy levels after the commute home. On days when you feel motivated, prepare a quick stir fry with seasonal vegetables from the depachika. On days when the workload leaves you exhausted, keep simple staples on hand. Buckwheat soba noodles are excellent because they cook in minutes. Pair them with frozen edamame or a block of cold tofu for an easy meal that requires almost no active effort.
 
