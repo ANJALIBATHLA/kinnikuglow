@@ -1,6 +1,6 @@
 ---
 title: Japanese Sunscreens That Feel Good Enough to Wear Every Day
-date: 2026-08-30
+date: 2026-12-18
 description: Finding a sunscreen that feels comfortable under your office makeup in
   Tokyo is the secret to consistent daily sun protection.
 tags:
@@ -13,8 +13,6 @@ Finding a sunscreen that does not feel heavy or greasy is the only way you will 
 ## Prioritizing Texture and Finish
 
 You should look for products labeled as gel or essence formulas if you want a lightweight feel. These options often dry down quickly, which is helpful when you are trying to get ready during a busy morning. Many Japanese brands focus on formulas that mimic a light lotion rather than a thick cream. This makes them easier to layer under your foundation or primer.
-
-[IMAGE: A flat lay of various Japanese sunscreen bottles on a marble bathroom counter]
 
 ## Where to Find Your Next Daily Favorite
 
