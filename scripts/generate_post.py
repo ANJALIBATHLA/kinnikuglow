@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
+
 """
 Reads the first unprocessed entry from queue/posts.yaml, generates a blog post
-via the Gemini API, writes it to content/posts/, and marks the entry as created.
+via the Gemini API, generates one AI image, writes everything to content/posts/,
+and marks the entry as created.
 
 Usage:
+
     python scripts/generate_post.py
     python scripts/generate_post.py --set-branch BRANCH
 
 Environment variables:
+
     GEMINI_API_KEY — required for generation
 """
 
@@ -19,6 +23,7 @@ import datetime
 import yaml
 from google import genai
 from google.genai import types
+from generate_image import generate_image
 
 QUEUE_FILE = "queue/posts.yaml"
 AFFILIATES_FILE = "data/affiliates.yaml"
@@ -31,7 +36,6 @@ POST_CLOSING = (
 )
 
 QUEUE_HEADER = """# KinnikuGlow post queue
-
 # Each entry needs at minimum a title.
 # publish: "YYYY-MM-DD"  → PR auto-merges on that date
 # Without a publish date → add the 'ready' label on GitHub when you're done reviewing
@@ -42,7 +46,6 @@ QUEUE_HEADER = """# KinnikuGlow post queue
 # images: → shared images to embed
 # status: created → set automatically when a PR has been generated
 # branch: → set automatically with the branch name used
-
 """
 
 
@@ -57,7 +60,6 @@ def load_api_key():
 def load_affiliates():
     if not os.path.exists(AFFILIATES_FILE):
         return {}
-
     with open(AFFILIATES_FILE, "r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
 
@@ -65,20 +67,16 @@ def load_affiliates():
 def build_affiliate_block(keys, all_affiliates):
     if not keys:
         return ""
-
     lines = [
         "Affiliate products for this post "
         "(add [AFFILIATE: key] immediately after each mention):"
     ]
-
     for key in keys:
         affiliate = all_affiliates.get(key)
         if affiliate:
             lines.append(f"  {key} → {affiliate.get('name', key)}")
-
     if len(lines) == 1:
         return ""
-
     return "\n".join(lines)
 
 
@@ -86,7 +84,6 @@ def load_prompt():
     if not os.path.exists(PROMPT_FILE):
         print(f"Error: Prompt file not found: {PROMPT_FILE}")
         sys.exit(1)
-
     with open(PROMPT_FILE, "r", encoding="utf-8") as f:
         return f.read().strip()
 
@@ -95,7 +92,6 @@ def load_queue():
     if not os.path.exists(QUEUE_FILE):
         print(f"Queue file not found: {QUEUE_FILE}")
         sys.exit(0)
-
     with open(QUEUE_FILE, "r", encoding="utf-8") as f:
         return yaml.safe_load(f) or []
 
@@ -117,7 +113,6 @@ def find_next_entry(entries):
     for i, entry in enumerate(entries):
         if entry.get("status") != "created":
             return i, entry
-
     return None, None
 
 
@@ -129,14 +124,12 @@ def mark_as_created(entries, index):
 
 def set_branch_in_queue(branch):
     entries = load_queue()
-
     for entry in entries:
         if entry.get("status") == "created" and not entry.get("branch"):
             entry["branch"] = branch
             write_queue(entries)
             print(f"Set branch: {branch}")
             return
-
     print("Warning: Could not find a created queue entry without a branch.")
 
 
@@ -151,25 +144,16 @@ def slugify(title):
 def build_image_block(images):
     if not images:
         return ""
-
     lines = [
         "Images to embed — use the exact markdown format at the placement hint location:"
     ]
-
     for img in images:
         file_path = img.get("file", "")
         alt = img.get("alt", "")
         placement = img.get("placement", "where relevant in the post")
-
         lines.append(f"  - file: {file_path}")
         lines.append(f"    alt: {alt}")
         lines.append(f"    placement hint: {placement}")
-
-    lines.append(
-        "For any other image spots, keep using: "
-        "[IMAGE: short description of what photo would go here]"
-    )
-
     return "\n".join(lines)
 
 
@@ -187,26 +171,21 @@ def replace_affiliate_placeholders(content):
 
 def inject_tags(content, tags):
     parts = content.split("---", 2)
-
     if len(parts) < 3:
         return content
-
     fm = yaml.safe_load(parts[1]) or {}
     fm["tags"] = tags
-
     new_fm = yaml.dump(
         fm,
         allow_unicode=True,
         sort_keys=False,
         default_flow_style=False,
     )
-
     return f"---\n{new_fm}---{parts[2]}"
 
 
 def generate_post(entry, api_key, system_prompt, all_affiliates):
     client = genai.Client(api_key=api_key)
-
     title = str(entry.get("title", "")).strip()
     notes = (entry.get("notes") or "").strip()
     images = entry.get("images", []) or []
@@ -236,11 +215,7 @@ def generate_post(entry, api_key, system_prompt, all_affiliates):
 
     for attempt in range(1, 4):
         try:
-            print(
-                f"Calling Gemini for: {title} "
-                f"(attempt {attempt})"
-            )
-
+            print(f"Calling Gemini for: {title} (attempt {attempt})")
             response = client.models.generate_content(
                 model="gemini-3.1-flash-lite",
                 contents=prompt,
@@ -248,17 +223,13 @@ def generate_post(entry, api_key, system_prompt, all_affiliates):
                     system_instruction=system_prompt,
                 ),
             )
-
             if not response.text:
                 raise RuntimeError("Gemini returned an empty response.")
-
             return response.text
-
         except Exception as e:
             if attempt == 3:
                 print(f"Gemini failed after 3 attempts: {e}")
                 raise
-
             wait = 2 ** attempt
             print(
                 f"Attempt {attempt} failed: {e}. "
@@ -267,6 +238,25 @@ def generate_post(entry, api_key, system_prompt, all_affiliates):
             time.sleep(wait)
 
     raise RuntimeError("Gemini generation failed unexpectedly.")
+
+
+def insert_ai_image(content, filename, alt_text):
+    image_markdown = (
+        f"![{alt_text}](images/{filename})\n\n"
+        "*AI generated image used for illustration.*"
+    )
+
+    match = re.search(r"^##\s+.+$", content, flags=re.MULTILINE)
+
+    if match:
+        return (
+            content[:match.start()]
+            + image_markdown
+            + "\n\n"
+            + content[match.start():]
+        )
+
+    return content.rstrip() + "\n\n" + image_markdown + "\n"
 
 
 def write_post(entry, content):
@@ -289,7 +279,6 @@ def write_post(entry, content):
 
 
 def main():
-    # Mode: record branch name after the post has been generated.
     if len(sys.argv) == 3 and sys.argv[1] == "--set-branch":
         set_branch_in_queue(sys.argv[2])
         return
@@ -327,12 +316,34 @@ def main():
     if tags:
         content = inject_tags(content, tags)
 
-    slug = write_post(entry, content)
+    slug = slugify(title)
+    notes = (entry.get("notes") or "").strip()
+
+    try:
+        alt_text = generate_image(
+            title=title,
+            slug=slug,
+            article_content=content,
+            article_context=notes,
+            filename="ai-image.jpeg",
+        )
+
+        content = insert_ai_image(
+            content=content,
+            filename="ai-image.jpeg",
+            alt_text=alt_text,
+        )
+    except Exception as e:
+        print(f"Image generation failed: {e}")
+        raise
+
+    write_post(entry, content)
     mark_as_created(entries, index)
 
     print(f"slug={slug}")
     print(f"title={title}")
     print(f"publish={publish}")
+    print("AI image generated: ai-image.jpeg")
     print("Done.")
 
 

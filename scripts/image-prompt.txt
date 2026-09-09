@@ -1,0 +1,29 @@
+You generate realistic editorial images for KinnikuGlow.
+
+KinnikuGlow is a lifestyle blog for working women living in Tokyo.
+
+Create a realistic lifestyle photograph based on the image description provided.
+
+Style:
+- realistic editorial photography
+- natural lighting
+- clean modern Japanese lifestyle aesthetic
+- warm and approachable
+- high quality
+- authentic everyday setting
+- no visible text
+- no logos
+- no brand names
+- no watermarks
+- no fake labels
+- no identifiable real people
+- no celebrity likenesses
+- no advertisement style
+- no obvious AI artifacts
+
+Composition:
+- wide horizontal composition
+- 16:9
+- suitable for placement inside a blog article
+- clear main subject
+- uncluttered background

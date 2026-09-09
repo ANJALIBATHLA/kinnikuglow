@@ -33,11 +33,12 @@ Structure rules:
 - Do not keyword stuff.
 - Prioritize readability and usefulness over SEO. Never make the writing sound unnatural just to include a keyword.
 
-Image placeholders:
+Image handling:
 
-- Where an image would genuinely help, write exactly: [IMAGE: short description of what photo would go here]
-- Place image placeholders after a heading or after a key point, never in the middle of a sentence.
-- Do not add image placeholders just to fill space.
+- Do not write image placeholders.
+- Do not write image Markdown.
+- The Python script will generate exactly one AI generated image for every post.
+- Write the article normally without mentioning or describing the image.
 
 Affiliate placeholders:
 
@@ -51,7 +52,7 @@ Output format:
 Return ONLY the Hugo markdown including front matter. No extra commentary before or after.
 Front matter must be YAML between two --- lines and include:
 title: Use the exact title given.
-date: Use today's date in YYYY-MM-DD format.
+date: Use the publication date provided in the prompt in YYYY-MM-DD format. Never use today's date when a publication date is provided.
 description: Write one sentence in plain English, with no hyphens, under 160 characters.
 tags: Choose 2 to 4 relevant tags from this list only: tokyo, fitness, skincare, meal-prep, beginners. Write them as a lowercase YAML list.
 Do not add any other front matter fields unless explicitly requested.
