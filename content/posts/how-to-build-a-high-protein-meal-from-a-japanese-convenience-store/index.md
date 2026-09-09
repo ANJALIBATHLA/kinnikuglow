@@ -1,6 +1,6 @@
 ---
 title: How to Build a High Protein Meal From a Japanese Convenience Store
-date: 2026-08-16
+date: 2026-09-11
 description: You can assemble a high protein meal at any Tokyo konbini by choosing
   simple staples like grilled chicken and eggs.
 tags:
@@ -12,8 +12,6 @@ You are staring at the shelves of a Tokyo convenience store after a long shift, 
 
 ## Prioritize the Basics
 The refrigerated section is your best friend when you need quality fuel. Look for packages of steamed chicken, known as salad chicken, which offer one of the highest protein counts per yen. Pair this with a pack of seasoned soft boiled eggs, typically found near the dairy or deli items. These provide healthy fats and around six grams of protein each.
-
-[IMAGE: A tray of salad chicken and soft boiled eggs on a wooden table]
 
 ## Add Fiber and Volume
 A high protein meal feels more satisfying when you add fiber from fresh greens. Grab a bag of pre washed salad mix from the vegetable display. You can also look for edamame, which adds both texture and extra plant based protein to your bowl. If you want a more substantial side, a small cup of hijiki seaweed or a bean salad adds micronutrients without too much extra prep.
