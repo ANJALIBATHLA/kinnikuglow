@@ -334,8 +334,7 @@ def main():
             alt_text=alt_text,
         )
     except Exception as e:
-        print(f"Image generation failed: {e}")
-        raise
+        print(f"Image generation failed, continuing without AI image: {e}")
 
     write_post(entry, content)
     mark_as_created(entries, index)
