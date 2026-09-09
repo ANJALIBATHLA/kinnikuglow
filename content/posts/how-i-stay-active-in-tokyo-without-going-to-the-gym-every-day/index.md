@@ -1,6 +1,6 @@
 ---
 title: How I Stay Active in Tokyo Without Going to the Gym Every Day
-date: 2026-08-19
+date: 2026-10-02
 description: Practical ways to incorporate movement into your busy Tokyo routine without
   needing a gym membership.
 tags:
@@ -13,8 +13,6 @@ Your legs likely get a workout just from navigating the endless staircases at Sh
 ## Make the commute your workout
 
 The most effective way to stay moving is to treat your daily commute as intentional exercise. Opt for the stairs instead of the escalator whenever you exit the subway. If you have a long train ride, standing instead of sitting engages your core and keeps your muscles awake. 
-
-[IMAGE: A commuter walking up stairs at a Tokyo train station]
 
 Getting off one stop early provides a simple way to add ten or fifteen minutes of walking to your day. Tokyo neighborhoods like Daikanyama or Yanaka offer plenty of interesting side streets that make a longer walk feel like an exploration rather than a chore.
 
