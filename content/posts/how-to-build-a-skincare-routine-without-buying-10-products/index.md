@@ -1,6 +1,6 @@
 ---
 title: How to Build a Skincare Routine Without Buying 10 Products
-date: 2026-08-28
+date: 2026-12-04
 description: You can achieve a healthy glow by focusing on three essential steps instead
   of purchasing an entire shelf of expensive products.
 tags:
@@ -12,8 +12,6 @@ You are likely overwhelmed by the rows of beauty products lining the shelves at 
 ## Focus on the three essentials
 
 Your skin only needs three core components to stay healthy. These are cleansing, moisturizing, and sun protection. Anything else is an extra step that you can add only if you have the time or a specific goal. By sticking to these basics, you save money and reduce the clutter in your bathroom cabinet.
-
-[IMAGE: A minimalist bathroom shelf with a cleanser, moisturizer, and sunscreen.]
 
 ## Cleanse to remove the city air
 
