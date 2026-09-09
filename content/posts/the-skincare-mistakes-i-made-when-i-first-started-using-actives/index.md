@@ -1,6 +1,6 @@
 ---
 title: The Skincare Mistakes I Made When I First Started Using Actives
-date: 2026-08-29
+date: 2026-12-11
 description: Learn how to incorporate active ingredients into your routine without
   irritating your skin.
 tags:
