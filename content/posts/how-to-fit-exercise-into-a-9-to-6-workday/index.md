@@ -1,6 +1,6 @@
 ---
 title: How to Fit Exercise Into a 9 to 6 Workday
-date: 2026-08-25
+date: 2026-11-13
 description: You can stay active while working a full time job in Tokyo by breaking
   movement into smaller and more manageable pieces throughout your busy day.
 tags:
@@ -8,8 +8,6 @@ tags:
 ---
 
 You feel drained after a long day at the office and the thought of heading to a crowded gym seems impossible. Finding time for movement while managing a 9 to 6 schedule in Tokyo requires a shift in how you view exercise.
-
-[IMAGE: A pair of sneakers placed neatly by a front door in a small Tokyo apartment]
 
 ## Utilize your commute
 
@@ -28,8 +26,6 @@ Many local parks or quiet side streets in districts like Ebisu or Kanda offer sp
 Avoid the pressure of hour long gym sessions after a taxing day at work. A fifteen minute session at home is much more sustainable than skipping a longer workout because you feel tired.
 
 Focus on bodyweight exercises like squats or lunges that require no equipment. Consistency matters more than intensity when you are balancing a full time job.
-
-[IMAGE: A yoga mat laid out on a clean floor near a window]
 
 ## Prepare your gear early
 
