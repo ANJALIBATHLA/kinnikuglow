@@ -1,6 +1,6 @@
 ---
 title: How to Shop for Skincare in Japan When You Cannot Read Japanese
-date: 2026-08-17
+date: 2026-09-18
 description: Learn how to navigate Japanese drugstore aisles and identify the products
   you need even if you do not read the language.
 tags:
@@ -9,8 +9,6 @@ tags:
 ---
 
 Standing in a bright Tokyo drugstore with aisles of products featuring only Japanese characters can feel overwhelming when you just need a new cleanser. You do not need to be fluent in the language to find high quality skincare that works for your skin.
-
-[IMAGE: A photo of a well stocked Japanese drugstore skincare aisle]
 
 ## Look for universal symbols and numbers
 
@@ -23,8 +21,6 @@ Check the English text on the back of the packaging for specific terms. Brands o
 You can recognize the most common products by their position on the shelf and their English descriptors. Cleansing oil is usually labeled as "Cleansing Oil" or "Makeup Remover." Look for bottles that feature a pump and a thin, oily consistency. 
 
 Moisturizers often use the term "Milk" or "Emulsion" for lighter lotions, while "Cream" is reserved for thicker, heavier formulas. If you want a toner, look for the word "Lotion" on the bottle. In Japan, these are watery liquids designed to hydrate the skin after cleansing, not astringents.
-
-[IMAGE: Close up photo of skincare bottles with English labels]
 
 ## Use translation tools for ingredient lists
 
