@@ -13,8 +13,6 @@ You probably feel overwhelmed by the shelves at your local Matsumoto Kiyoshi whe
 
 When I first started using actives, I layered a retinol serum, a chemical exfoliant, and a vitamin C essence all in one week. My skin barrier quickly became compromised, leaving me with red patches and stinging sensations every time I applied my moisturizer. You should introduce only one active ingredient at a time to see how your skin reacts. Wait at least two weeks before adding another. This allows you to identify exactly which product might be causing issues if your skin feels sensitive.
 
-[IMAGE: A clean bathroom vanity with a single bottle of serum and a gentle moisturizer]
-
 ## Listen to your skin moisture levels
 
 Tokyo summers are humid, but the air conditioning in many offices is incredibly drying. You might assume your skin is oily and choose harsh actives that strip away all your natural oils. Applying a strong acid when your skin barrier is already dehydrated often causes flaking and tightness. Always focus on maintaining your hydration levels before you try to treat specific concerns. If you notice your skin feels tight or looks shiny in a way that feels uncomfortable, skip the actives for a few days and focus on repairing your moisture barrier with ceramides.
