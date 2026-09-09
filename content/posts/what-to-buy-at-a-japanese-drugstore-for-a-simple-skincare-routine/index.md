@@ -16,8 +16,6 @@ Start by prioritizing three basic steps: cleansing, hydration, and protection. M
 
 For cleansing, look for oil or milk cleansers if you wear makeup. If you want something quick, foam cleansers in pump bottles are easy to use. Look for the word sen-gan on the label, which means facial wash.
 
-[IMAGE: Rows of skincare products on a shelf in a brightly lit Japanese drugstore]
-
 Hydration usually comes in the form of a lotion, often called kesho-sui. This is a thin, watery liquid that you pat onto your skin after washing. It preps your face for a light moisturizer or milk, which is often labeled as nyu-eki.
 
 Sun protection is the most important part of your morning routine in Tokyo. Japanese sunscreen is known for being lightweight and non greasy. Look for the term UV cut on the packaging.
@@ -28,7 +26,7 @@ You will notice that many products have similar names or packaging. Most stores 
 
 The skincare section is often marked with a clear graphic showing a face. If you are unsure about an ingredient, you can often find testers available for the texture and scent. Testing a small amount on your wrist helps you avoid buying something that feels too sticky or heavy for your skin.
 
-[IMAGE: A close up of a sunscreen bottle showing the UV cut label clearly]
+![Sunscreen](shared/sunscreen.png)
 
 Ignore the complicated multi step sets that suggest you need ten products to see results. You can achieve a glow with a simple routine that stays consistent. Stick to brands that prioritize hydration and basic protection for your daily life in the city.
 
