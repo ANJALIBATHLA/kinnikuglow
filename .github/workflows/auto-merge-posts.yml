@@ -91,6 +91,6 @@ jobs:
   deploy:
     needs: merge
     if: needs.merge.outputs.merged == 'true'
-    uses: ./.github/workflows/deploy.yaml
+    uses: ./.github/workflows/deploy.yml
     permissions:
       contents: write
