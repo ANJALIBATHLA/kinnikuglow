@@ -1,6 +1,6 @@
 ---
 title: How I Manage Cooking, Work, Exercise and Life in Tokyo
-date: 2026-08-21
+date: 2026-10-16
 description: Finding a balance between your career and personal health in this busy
   city requires small habits that actually fit your schedule.
 tags:
@@ -13,8 +13,6 @@ You are likely feeling the weight of a long commute and a demanding schedule in 
 ## Realistic meal prep
 
 Cooking every night after a late shift at the office is rarely sustainable. I find it most helpful to focus on simple components rather than full recipes. 
-
-[IMAGE: a collection of glass containers filled with pre-washed greens and cooked grains]
 
 Buy pre-cut vegetables at your local supermarket like Life or Summit to save time on busy weeknights. Keep your freezer stocked with frozen salmon fillets or pre-marinated chicken breast. You can quickly steam these with a bag of frozen vegetables in a frying pan when you get home. Focus on keeping your fridge stocked with basic protein and fiber so that you always have a ten minute dinner ready.
 
