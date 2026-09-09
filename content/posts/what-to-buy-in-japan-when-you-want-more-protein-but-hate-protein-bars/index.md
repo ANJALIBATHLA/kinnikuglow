@@ -1,6 +1,6 @@
 ---
 title: What to Buy in Japan When You Want More Protein but Hate Protein Bars
-date: 2026-08-26
+date: 2026-11-20
 description: Discover simple and delicious high protein snacks available at Japanese
   supermarkets and convenience stores that go beyond chalky bars.
 tags:
@@ -9,8 +9,6 @@ tags:
 ---
 
 You struggle to hit your daily protein targets when every convenience store snack option tastes like sweetened cardboard. Reaching your fitness goals in Tokyo does not mean you have to rely on expensive or overly processed protein bars.
-
-[IMAGE: A spread of various Japanese convenience store protein snacks like eggs, tofu, and edamame]
 
 ## Look for pre boiled eggs at the konbini
 
@@ -23,8 +21,6 @@ Most stores sell them in packs of two, already peeled and lightly seasoned. They
 Salad chicken is a staple for anyone looking to increase their protein intake without spending hours in the kitchen. You can find these vacuum sealed chicken breasts in almost every neighborhood supermarket or convenience store.
 
 They come in various flavors like herb, lemon, or smoked. Keep a few in your fridge for a fast addition to a salad or as a standalone meal on a busy weeknight.
-
-[IMAGE: A variety of vacuum sealed salad chicken packages from a Japanese supermarket]
 
 ## Add edamame and tofu to your meals
 
