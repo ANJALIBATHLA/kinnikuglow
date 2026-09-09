@@ -18,6 +18,8 @@ Start your meal by selecting a high quality protein source as the foundation. Bo
 
 A high protein meal needs volume and fiber to keep you feeling satisfied. Grab a pre packaged salad to serve as your green base. Look for simple garden salads or seaweed salads, but be mindful of the dressing packets included. Steamed vegetables or edamame are also excellent additions to your tray. These side dishes provide the necessary vitamins to balance out your protein intake.
 
+![Chicken and Salad Bowl](/shared/chickensalad.jpeg)
+
 ## Balance with smart carbohydrates
 
 You do not need to avoid carbohydrates entirely to maintain a healthy diet. Choose slow burning energy sources like an onigiri made with brown rice or zakkoku mai, which is a blend of grains. Cold soba noodles are another light option if you want to pair your protein with something substantial. Avoid large portions of fried items or heavy cream based pastas if you want to keep your energy levels steady for the rest of the work week.
