@@ -1,6 +1,6 @@
 ---
 title: My Simple Japanese Drugstore Skincare Routine
-date: 2026-08-27
+date: 2026-11-27
 description: Streamline your skincare routine using effective and affordable products
   found at your local Japanese drugstore.
 tags:
@@ -13,8 +13,6 @@ You are likely feeling overwhelmed by the endless aisles of skincare products at
 ## Focus on the essentials
 
 Start by narrowing your needs down to three basic steps: cleansing, hydrating, and protecting. You do not need a ten step process to achieve healthy skin. Most Japanese drugstore shelves feature clear labels that help you identify these core categories quickly. Stick to these basics to save time during your morning rush and your evening wind down.
-
-[IMAGE: A minimalist shelf showing a cleanser, a lotion, and a sunscreen]
 
 ## Prioritize gentle cleansing
 
