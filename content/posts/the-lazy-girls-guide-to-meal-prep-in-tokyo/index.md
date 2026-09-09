@@ -28,7 +28,7 @@ Bake a tray of protein in the oven while you do something else. Once it cools, p
 
 You do not need to follow complicated recipes to have a healthy lunch. Think of your meals as assemblies of pre made components. 
 
-Start with a base of microwaveable rice, such as Sato no Gohan {{< affiliate "sato-no-gohan" >}}, which is ready in two minutes. Add your pre cooked protein and a handful of greens. Drizzle a high quality sesame dressing or soy sauce over the top. This approach minimizes your time in the kitchen while ensuring you have a filling meal for the office.
+Start with a base of microwaveable rice, such as Sato no Gohan, which is ready in two minutes. Add your pre cooked protein and a handful of greens. Drizzle a high quality sesame dressing or soy sauce over the top. This approach minimizes your time in the kitchen while ensuring you have a filling meal for the office.
 
 ## Keep your flavor profile simple
 
