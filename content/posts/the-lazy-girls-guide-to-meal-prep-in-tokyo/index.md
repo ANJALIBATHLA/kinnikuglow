@@ -1,6 +1,6 @@
 ---
 title: The Lazy Girl’s Guide to Meal Prep in Tokyo
-date: 2026-08-23
+date: 2026-10-30
 description: Simplify your lunch routine with these realistic meal prep shortcuts
   designed for busy working days in Tokyo.
 tags:
@@ -15,8 +15,6 @@ Cooking for one or two in a small Tokyo kitchen does not have to turn into a mar
 ## Master the supermarket shortcuts
 
 Stop trying to chop every single vegetable from scratch. Your local supermarket like Life, Seiyu, or Aeon offers pre cut vegetable packs that save you significant time. 
-
-[IMAGE: A selection of pre cut stir fry vegetable bags at a Tokyo supermarket]
 
 Pick up bags of mixed greens or stir fry medleys. These go directly from the bag into a frying pan or a steaming bowl. You can also buy frozen broccoli, edamame, and corn. These are already washed and portioned so you can grab exactly what you need without worrying about spoilage.
 
